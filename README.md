@@ -1,4 +1,4 @@
-Virtualhost Manage Script
+Apache/NginX Virtualhosts
 ===========
 
 Bash Script to allow create or delete apache/nginx virtual hosts on Ubuntu on a quick way.
