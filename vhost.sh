@@ -34,7 +34,7 @@ if [ "${action,,}" != 'create' ] && [ "${action,,}" != 'delete' ]; then
 fi
 
 if [ "$domain" == "" ]; then
-	echo -e $"${GREEN}Please provide domain. e.g.dev, staging, local...${NC}"
+	echo -e $"${GREEN}Please provide the virtual host domain. e.g. test.dev, example.staging, site.local...${NC}"
 	read domain
 	sitesAvailabledomain=$sitesAvailable$domain.conf
 fi
